@@ -19,7 +19,24 @@ See [Vite Configuration Reference](https://vitejs.dev/config/).
 ## Project Setup
 
 ```sh
+composer install
+```
+
+## make .env file and database
+
+```sh
+php artisan key:generate
+```
+
+## recommended to use node js 15 or higher, npm 7 or higher .. for the sake of lockFileVersion@2
+
+```sh
 npm install
+```
+## to update the 2 packages with warnings 
+
+```sh
+npm audit fix
 ```
 
 ### Compile and Hot-Reload for Development
